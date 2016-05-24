@@ -1,0 +1,324 @@
+/* Hover Image caption  */
+
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
+/*  Custom thank you page buttons *****************************************/
+.typbutton {
+	border:none;
+	height:50px;
+	background:#FFF;
+	color:#000;
+}
+
+.tab-content .h1{
+	font-size:30px;
+	color:#336699;
+}
+
+
+
+
+
+/*  Custom Search things *****************************************/
+ .gsc-search-box {
+  max-width: 200px ;
+  margin-top: 5%;  
+}
+
+.gsc-search-button{
+	display:none;
+}
+
+.gsc-result-info {
+   display: none;
+}
+
+.gcsc-branding {
+	display:none;
+}
+
+.gs-snippet {
+	display:none;
+}
+
+.gsc-url-top, .gsc-url-bottom {
+    display: none;
+}
+
+.gsc-cursor-page{
+	display:none
+}
+
+
+/* Nav Bar Stuffs **************************************** */
+.navbar-gtl {
+  background-color: #336699;
+  border-color: #000;
+}
+.navbar-gtl .navbar-brand {
+  color: #000;
+}
+.navbar-gtl .navbar-brand:hover,
+.navbar-gtl .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-gtl .navbar-text {
+  color: #fff;
+}
+.navbar-gtl .navbar-nav > li > a {
+  color: #fff;
+  font-size:18px;
+}
+.navbar-gtl .navbar-nav > li > a:hover,
+.navbar-gtl .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-gtl .navbar-nav > .active > a,
+.navbar-gtl .navbar-nav > .active > a:hover,
+.navbar-gtl .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #080808;
+}
+.navbar-gtl .navbar-nav > .disabled > a,
+.navbar-gtl .navbar-nav > .disabled > a:hover,
+.navbar-gtl .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.navbar-gtl .navbar-toggle {
+  border-color: #333;
+}
+.navbar-gtl .navbar-toggle:hover,
+.navbar-gtl .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-gtl .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-gtl .navbar-collapse,
+.navbar-gtl .navbar-form {
+  border-color: #000;
+}
+.navbar-gtl .navbar-nav > .open > a,
+.navbar-gtl .navbar-nav > .open > a:hover,
+.navbar-gtl .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #3399cc;
+}
+@media (max-width: 767px) {
+  .navbar-gtl .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #080808;
+  }
+  .navbar-gtl .navbar-nav .open .dropdown-menu .divider {
+    background-color: #080808;
+  }
+  .navbar-gtl .navbar-nav .open .dropdown-menu > li > a {
+    color: #999;
+  }
+  .navbar-gtl .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-gtl .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+  .navbar-gtl .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-gtl .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-gtl .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #080808;
+  }
+  .navbar-gtl .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-gtl .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-gtl .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444;
+    background-color: transparent;
+  }
+}
+.navbar-gtl .navbar-link {
+  color: #999;
+}
+.navbar-gtl .navbar-link:hover {
+  color: #fff;
+}
+.page-header .h1{
+	color:#336699:
+}
+
+
+/*  Custom carousel indicators ******************************************/
+
+
+.gtl-indicators .carousel-indicators {
+  bottom:-30px;
+}
+.gtl-indicators .carousel-indicators li {
+  background-color: #3399cc;
+}
+
+.gtl-indicators .carousel-indicators .active {
+  background-color: #336699;
+}
+
+
+
+
+
+/*  Custom carousel controls ********************************************/
+
+.gtl .carousel-control {
+  	position: absolute;
+  	top: 0;
+  	bottom: -30px;
+  	left: 0;
+  	color: #fff;
+  	text-align: center;
+	color:#3399cc;
+  
+}
+.gtl .carousel-control.left {
+	top:50%;
+}
+.gtl .carousel-control.right {
+  	right: 0;
+  	left: auto;
+	top:50%;
+}
+.gtl .carousel-control:hover,
+.gtl .carousel-control:focus {
+  color: #336699;
+  text-decoration: none;
+  
+}
+
+.gtl .carousel-control.left, .gtl .carousel-control.right {
+    background-image: none
+}
+
+.gtl-controls-notblue .carousel-control.left {
+	top:50%;
+	color:#000;
+}
+.gtl-controls-notblue .carousel-control.right {
+  	right: 0;
+  	left: auto;
+	top:50%;
+	color:#000;
+
+}
+
+
+/*  Custom carousel caption ********************************************/
+
+.gtl .carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: -30px;
+  left: 15%;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+}
+
+.gtl-blackcaption .carousel-caption {
+	position:relative;
+	margin-top:20px;
+	bottom:0;
+	left:0;
+  	z-index: 10;
+  	color: #000;
+  	text-align: center;
+  	text-shadow:none;
+  
+}
+.gtl-blackcaption img{
+	height:500px;
+}
+
+
+
+
+
+
+
+/* custom gtl picture buttons.  */
+
+.gtl-button .btn-primary {
+  color: #fff;
+  background-color: #fff;
+}
+
+.gtl-button .btn-primary:hover,
+.gtl-button .btn-primary:focus,
+.gtl-button .btn-primary:active,
+.btn-primary.active,
+.gtl-button .open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #336699;
+}
+.gtl-button .btn-primary:active,
+.gtl-button .btn-primary.active,
+.gtl-button .open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+
+
+.gtl-button .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  border-color:#fff;
+}
+.gtl-button .btn:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.gtl-button .btn:hover,
+.gtl-button .btn:focus {
+  color: #333;
+  text-decoration: none;
+}
+.gtl-button .btn:active,
+.gtl-button .btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+
+
